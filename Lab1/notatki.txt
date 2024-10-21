@@ -1,0 +1,50 @@
+Zaliczenie ćwiczeń:
+-projekty indywidualne 2/3
+-ocena końcowa średnia z ocen projektowych
+-ocena 5 to zwolnienie z egzaminu
+-nieobecności nie są odrabiane, tylko trzeba zadania zaległe zrobić
+-dopuszone są dwie nieustprawiedliwione nieobecności
+-wszelkie usprawiedliwienia dostarczać niezwłocznie na następnych zajęciach lub mailem
+
+
+-korzystamy z google collab najlepiej, jak ktoś chce, to może jupyter notebook lokalnie
+-można połączyć collaba z dyskiem google, tak samo z githubem
+-można przesyłać notatniki jako pliki
+
+-przegląd cech collaba
+-markdown
+-charts
+-pierwsze 4 notatkini z examples zapoznać się w ramach pracy domowej
+
+Collab:
+-dzieli się na komórki
+-dzieli się na fragmenty kodu i tekstu output
+-dzielić komórki na spójne części kodu
+-realizowane w html albo w markdown
+-kliknięcie 2 razy w komórkę tekstu pozwala na edytowanie jej i esc wychodzenie z niej 
+-w komórkach można zagnieżdżać praktycznie wszystko
+-przy pracy w notatnikach nie trzeba wykorzystywać print, tylko automatycznie ostatnie wyrażenie w bloku jest printowane
+-wszystko dzieje się w jednej sesji, dlatego wartości pomiędzy komórkami są zachowywane
+-uruchamiane są na 2 sposoby, albo przyciskiem, albo skrót ctrl + enter
+-shift + enter przechodzi do kolejnej komórki lub tworzy nową jak nie ma żadnej
+-ctrt+shift+spacja to podpis opisu funkcji
+-ctrl + spacja to podpowiedzi co można tam uzupełnić, albo samo się robi jak się poczeka trochę
+-ma załączony debugger, gdzie można sprawdzać typy i wartości danych
+-collab jest oparty na dystrybucji linuxa debuianowej
+-katalog content zawiera pliki sesji
+-połączenie z dyskiem google wstawia komórkę do kodu, gdzie się po prostu montuje go jako katalog
+-montowanie dysku wymaga autoryzacji za każdym razem
+-jak to się zrobi to w katalogu pojawi się nowy folder z dyskiem google
+-komendy takie same jak normalnie tylko jak pracujemy na poziomie komórek to prefix to ctrl + m + polecenie
+-można uruchomić maksymalnie 3 sesje i one mają ograniczony czas trwania
+-w zakładce typu środowiska wykonawczego można wybrać język i akcelarator sprzętowy
+-na razie pracujemy na cpu, sieci jedynie będziemy na gpu/tpu korzystać
+-zmieniając typ środowiska powodujemy reset sesji
+-python i numpy wspiera wektoryzację
+-jakieś takie postawy pythona, list complehension, pyplot itd
+-robimy własny notatnik podłączony do drive
+-jak w drive klikmieny na plik collaba, to otworzy się automatycznie collab
+
+W DOMU:
+-zobaczyć pierwsze 4 rozdziały z przykładów
+

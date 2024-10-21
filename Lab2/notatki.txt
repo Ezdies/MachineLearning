@@ -1,0 +1,25 @@
+1. Pobieramy przykłady religna z teams
+2. Odpalamy je na google collab
+3. x losowa zmienna zjawiska, y zmienna funkcji celu
+4. Ramka danych, x to  serie danych
+5. Cos tam o numpy and pandas
+6. Matplotlib i rysowanie wykresów
+7. Jak mamy punkty na tym wykresie, to możemy spróbować wydzielić tam linię
+8. Bedziemy korzystać z metody najmniejszych kwadratów
+9. Będziemy szukać takiej funkcji liniowej, którą dla x,y będzie dawało nam podobne do funkcji liniowej wyniki
+Dobieramy a i b do wzoru y = ax + b 
+Dobieramy takie parametry, żeby popełnić jak najmniejszy błąd
+Suma po wszystkich punktach, po naszych błędach - błąd to różnica pomiędzy idealnym y, a y dla naszego x. Powinno wynosić minumum i nazywa się to funkcja błędu
+Zależy ona od a i b. Liczymy minimum - pierwsza pochodna wyznacza ekstremum, a druga jak jest dodatnia to będzie minumum
+Liczymy dla a i b cząstkowo.
+J(a, b)= 1/2 * SUM(y^(i) - y'^(i))^2 ---> min 
+J(a, b)= 1/2 * SUM(y^(i) - ax^(i) - b)^2
+
+Wyliczamy pochodną po a i b 
+
+a * S_x^2 + b * S_x = S_xy
+a * S_x + b * n = S y 
+
+^ rozwiązać taki układ metodą wyznaczników
+
+Zadanie domowe, to dla kolejnych danych to samo zrobić
