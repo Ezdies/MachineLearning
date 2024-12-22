@@ -1,0 +1,1 @@
+Trzeba zrobić metodą one hot
